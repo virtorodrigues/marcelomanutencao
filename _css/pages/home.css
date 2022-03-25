@@ -1,0 +1,13 @@
+#home {
+    background-color: #f5f6ff;
+}
+
+h4 {
+    font-weight: normal;
+    line-height: 35px;
+}
+
+.home-img {
+    height: 100%;
+    border-radius: 50%;
+}

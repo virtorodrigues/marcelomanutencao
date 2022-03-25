@@ -1,0 +1,14 @@
+#contact {
+    background-color: #f5f6ff;
+}
+
+.contact-card {
+    text-decoration: none;
+    box-shadow: 10px 10px 22px rgb(0 0 0 / 10%);
+    border: 0;
+}
+
+.contact-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,93 @@
+.primary-color {
+    color: #3F51B5;
+}
+
+.primary-background {
+    background-color: #3F51B5;
+}
+
+.primary-dark {
+    color: #303F9F;
+}
+
+.accent-color {
+    color: #FFC107;
+}
+
+.primary-text {
+    color: #212121;
+}
+
+.seconary-text {
+    color: #757575;
+}
+
+.header {
+    background-color: #3F51B5;
+    color: #FFF;
+    width: 100%;
+}
+
+.footer {
+    background-color: #3F51B5;
+    color: #FFF;
+    width: 100%;
+    padding: 20px;
+}
+
+.footer .footer-item {
+    cursor: pointer;
+}
+
+.header .nav-item .nav-link {
+    color: #FFF;
+}
+
+header .nav-item .nav-link:hover {
+    color: #FFF !important;
+}
+
+.header .nav-item .nav-link.active {
+    color: #FFC107 !important;
+}
+
+.header .nav-item {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.header .nav-item::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: #FFF;
+    transition: 300ms;
+}
+
+.header .nav-item:hover::after {
+    width: 100%;
+}
+
+.content-page {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.hover-effect {
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.hover-effect:hover {
+    transform: translateY(-10px); 
+}
+
+.social-media-img{
+    width: 30px;
+    margin-right: 15px;
+}
+
+a:link {
+    text-decoration: none;
+}
